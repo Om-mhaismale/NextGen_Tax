@@ -5,11 +5,20 @@ body {
     background-color: #f0f0f0;
 }
 
-header {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
+.transparent-header {
+    background-color: rgba(255, 255, 255, 0.6); /* White with 60% opacity */
+    backdrop-filter: blur(10px); /* Blur effect */
+    -webkit-backdrop-filter: blur(10px); /* Safari support */
     padding: 1em;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensures the header stays on top */
+}
+
+h1 {
+    margin: 0;
+    color: #333;
 }
 
 main {
