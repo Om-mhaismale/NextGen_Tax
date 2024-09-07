@@ -3,25 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tax calculator</title>
+    <title>Tax Calculator</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    
     <header class="transparent-header">
-        <h1>Tax Calculator</h1>
+        <div class="logo">Next-Gen Tax Insights</div>
+        <nav class="nav-links">
+            <a href="#about"><h2>About</h2></a>
+            <a href="#contact"><h2>Contact</h2></a>
+        </nav>
     </header>
+    <div class="content"></div>
     <main>
-        <section>
-            <h2>About</h2>
-            <p>Just calculate your tax without any hesitations!<br>No storage of personal stacks</p>
+        <div class="container">
+            <a href="active.html" class="box" target="_blank"><b>Active</b></a>
+            <a href="passive.html" class="box" target="_blank"><b>Passive</b></a>
+        </div>
+        <section id="about">
+            <h2 class="abt">About</h2>
+            <p>Just calculate your tax without any hesitations!<br>No storage of personal stacks.</p>
         </section>
-        <section>
-            <h2>Contact</h2>
+        <section id="contact">
+            <h2 class="con">Contact</h2>
             <p>Email: ommhaismale13@gmail.com</p>
         </section>
     </main>
     <footer>
-        <p>&copy; 2024 Building community </p>
+        <p class="foot">&copy; 2024 Building community</p>
     </footer>
+    <script src="script.js"></script>
+    
 </body>
 </html>
