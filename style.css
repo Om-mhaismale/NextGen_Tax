@@ -24,6 +24,12 @@ body {
     font-weight: bold;
 }
 
+
+h1{
+    color: antiquewhite;
+    padding-left: 30px;
+}
+
 .nav-links {
     display: flex; /* Display links inline */
     gap: 20px; /* Space between links */
@@ -74,12 +80,13 @@ body {
     color: blanchedalmond;
 }
 
-p{
+.list{
     color: beige;
 }
 
 h2 {
     margin: 0;
+    padding-left: 10px;
 }
 
 section {
@@ -89,6 +96,10 @@ section {
     flex-grow: 1;
     padding: 30px;
     text-align: center;
+}
+
+p{
+    color: beige;
 }
 
 .foot {
